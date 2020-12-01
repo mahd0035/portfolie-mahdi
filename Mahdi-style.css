@@ -5,6 +5,7 @@ body{
     text-decoration: none;
 }
 
+/*headeren */
 nav{
     height: 10vh;
     background: #fff;
@@ -28,9 +29,12 @@ nav{
     display: flex;
 }
 
-.nav-items{
+.nav-links li{
     list-style: none;
     padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     cursor: pointer;
-}
+} 
+
+/*første sektion*/
