@@ -6,7 +6,7 @@ body{
 }
 
 nav{
-    height: 100vh;
+    height: 10vh;
     background: #fff;
     width: 96vw;
     position: absolute;
@@ -17,6 +17,9 @@ nav{
     padding: 0 40px;
 } 
 
+.logo{
+    padding: 40px;
+}
 .logo img{
     width: 40px;
 }
@@ -25,7 +28,7 @@ nav{
     display: flex;
 }
 
-.nav-links li{
+.nav-items{
     list-style: none;
     padding: 0 20px;
     font-size: 12px;
