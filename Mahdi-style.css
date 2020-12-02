@@ -155,3 +155,17 @@ section{
     transform: scale(1) translate(0%, -50%);
     opacity: 1;
 }
+
+.box img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    transform: translate(-50%. -50%);
+    z-index: 50;
+    transition: all 0.15s ease-out
+}
+
+.box:hover img{
+    height: 135%;
+}
