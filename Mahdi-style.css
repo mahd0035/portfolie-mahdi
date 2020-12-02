@@ -150,3 +150,8 @@ section{
     bottom: 10%;
     text-align: start;
 }
+
+.box:hover .caption{
+    transform: scale(1) translate(0%, -50%);
+    opacity: 1;
+}
