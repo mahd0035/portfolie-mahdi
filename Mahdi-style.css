@@ -5,6 +5,21 @@ body{
     text-decoration: none;
 }
 
+/*gridcontainer*/
+.gridcontainer{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1.5fr 1.2fr 0.2fr;
+    grid-template-areas:
+    "nav"
+    "section"
+    "section"
+    "section"
+    "footer"
+}
+
+
 /*headeren */
 nav{
     height: 10vh;
