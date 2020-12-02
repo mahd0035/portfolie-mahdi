@@ -283,3 +283,14 @@ button{
     font-size: 14px;
     border-radius: 4px;
 }
+
+.contactpic{
+    width: 100%;
+    filter: brightness(0.8);
+}
+.contactpic img{
+    position: absolute;
+    left: 0;
+    top: -120px;
+    z-index: 10;
+}
