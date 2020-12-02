@@ -298,4 +298,10 @@ label{
 .contactpic h1{
     font-size: 100px;
     color: #fff;
+} 
+
+/*media quires begynder*/
+
+@media only screen and(max-width 540px){
+    
 }
