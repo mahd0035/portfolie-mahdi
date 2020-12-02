@@ -143,4 +143,10 @@ section{
     width: 96%;
     margin-left: 5%;
     transform: scale(3);
+    text-align: center;
+    transition: all 0.15s ease-out;
+    color: #fff;
+    opacity: 0;
+    bottom: 10%;
+    text-align: start;
 }
