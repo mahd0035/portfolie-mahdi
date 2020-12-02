@@ -216,4 +216,15 @@ section{
     opacity: 0.9;
     line-height: 30px;
     text-align: justify;
+} 
+
+/*fjerde sektion med kontakformular*/
+
+.contact{
+    background: #fff;
+    height: 100vh;
+}
+
+form{
+    width: 40%;
 }
