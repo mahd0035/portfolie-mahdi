@@ -197,6 +197,31 @@ section{
     filter: contrast(1.3);
 }
 
+.aboutmecontent{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+.aboutheading h1{
+    font-size: 36px;
+}
+.aboutheading h1::after{
+    content: "";
+    display: block;
+    margin-top: 10px;
+    height: 4px;
+    width: 100px;
+    background: #ccc;
+    border-radius: 15px;
+}
+
+.aboutdesc p{
+    font-size: 14px;
+    line-height: 30px;
+    text-align: justify;
+}
 /*fjerde sektion med kontakformular*/
 
 .contact{
