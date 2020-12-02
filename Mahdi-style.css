@@ -273,7 +273,7 @@ label{
     justify-content: flex-end;
     width: 50%;
 }
-button{
+.buttonform button{
     cursor: pointer;
     width: 25%;
     border: none;
@@ -293,4 +293,9 @@ button{
     left: 0;
     top: -120px;
     z-index: 10;
+}
+
+.contactpic h1{
+    font-size: 100px;
+    color: #fff;
 }
