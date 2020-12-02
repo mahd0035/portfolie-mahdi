@@ -124,4 +124,11 @@ section{
 .box:after{
     content: "";
     position: absolute;
+    background-color: #000;
+    opacity: 0;
+    z-index: 55;
+    width: 100%;
+    height: 100%;
+    transition: all 0.15s ease-out;
+
 }
