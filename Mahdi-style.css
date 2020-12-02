@@ -188,9 +188,14 @@ section{
     justify-content: center;
 }
 
-.aboutme img{
+.aboutmeimg{
     padding: 60px 40px;
     width: 20%;
+}
+
+.aboutimg img{
+    width: 100%;
+    filter: contrast(1.3);
 }
 
 .aboutme h1{
