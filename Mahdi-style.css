@@ -99,7 +99,7 @@ section{
     width: 100%;
 }
 
-.container article{
+article{
     padding: 0;
     margin: 0;
 }
@@ -222,6 +222,7 @@ section{
     line-height: 30px;
     text-align: justify;
 }
+
 /*fjerde sektion med kontakformular*/
 
 .contact{
