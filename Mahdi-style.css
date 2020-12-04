@@ -242,20 +242,9 @@ article{
 .form{
     width: 40%;
 }
-.contactheading{
-    
+.contactcontent{
+   padding: 55px;
 }
-
-.contactheading h1{
-    margin-left: 150px;
-    font-size: 25px;
-}
-.contactheading h2{
-    margin-left: 150px;
-    font-style: normal;
-    font-size: 15px;
-}
-
 .contactcontent{
     display: flex;
     flex-direction: row;
