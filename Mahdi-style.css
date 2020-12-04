@@ -99,6 +99,9 @@ section{
 
 /*anden sektion med billedergalleri*/
 
+.portfolioscreen h1,h5{
+    padding-left: 150px;
+}
 .container{
     padding: 1% 1% 0% 1%;
 }
@@ -382,6 +385,10 @@ footer img{
     }
 
     /*sektion 2*/
+    .portfolioscreen h1{
+        margin: 25px;
+    }
+    
     .container{
         text-align: center;
     }
