@@ -335,4 +335,39 @@ button{
 .contactimgheading2 h1{
     font-size: 50px;
     color: #fff;
+} 
+
+/*Breakpoints begynder*/
+
+@media only screen and (max-width: 540px) {
+
+    body{
+        width: vw;
+        overflow-x: hidden;
+    }
+
+    nav{
+        width: 100vw;
+        padding: 0;
+    }
+
+    /*sektion 1*/
+    .eyecatch{
+        flex-direction: column;
+    }
+
+    .content{
+        margin-top: 10%;
+    }
+    .content, 
+    .profileimage{
+        width: 100vw;
+        height: 50vh;
+
+    }
+
+    /*sektion 2*/
+    .container{
+        font-size: 14px;
+    }
 }
