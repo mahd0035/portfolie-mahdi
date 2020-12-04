@@ -381,4 +381,51 @@ button{
         transform: scale(1);
         bottom: 5%;
     }
+
+    /*sektion 3*/
+
+    .aboutme{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutmeimg{
+        width: 40vw;
+        padding: 0;
+        margin-top: 5vh;
+    }
+    .aboutmecontent{
+        width: 80vw;
+    }
+    .aboutheading h1{
+        font-size: 20px;
+    } 
+
+    /*sektion 4 kontakt*/
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactheading{
+        text-align;
+    }
+
+    .contactcontent{
+        flex-direction: column;
+    }
+    .form{
+        width: 90vw;
+    }
+    input, 
+    textarea {
+        width: 95%;
+    }
+    
+    button{
+        width: 100%;
+    }
+    .contactimg{
+        display: none;
+    }
 }
