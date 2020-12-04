@@ -304,12 +304,12 @@ button{
 }
 
 .contactimg{
-    width: 50%;
+    width: 35%;
     position: relative;
 }
 
 .contactimg img{
-    width: 100%;
+ width: 100%;
 
 }
 
@@ -321,18 +321,18 @@ button{
 }
 
 .contactimgheading1 h1{
-    font-size: 100px;
+    font-size: 50px;
     color: #fff;
 }
 
 .contactimgheading2{
     position: absolute;
-    left: 0;
-    top: -120px;
+    right: 6;
+    bottom: -120px;
     z-index: 10;
 }
 
 .contactimgheading2 h1{
-    font-size: 100px;
+    font-size: 50px;
     color: #fff;
 }
