@@ -22,12 +22,14 @@ nav{
 } 
 
 .logo{
-    padding: 40px;
+    padding: 50px;
+    padding-bottom: 20px;
 }
 .logo img{
-    width: 60px;
+    width: 70px;
     
 }
+
 
 .nav-links{
     display: flex;
