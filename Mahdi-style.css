@@ -242,10 +242,12 @@ article{
 .form{
     width: 40%;
 }
+.contactheading{
+    
+}
 
 .contactheading h1{
     margin-left: 150px;
-    margin-bottom: 25px;
     font-size: 25px;
 }
 .contactheading h2{
