@@ -243,17 +243,9 @@ article{
     width: 40%;
 }
 
-.contactheading{
-    padding: 40px;
-}
-.contactheading h1, .contactheading h5 {
-    padding: 0;
-    margin: 5px;
-}
-
-.contactheading h5{
-    opacity: 0.8;
-    text-transform: uppercase;
+.contactheading h1{
+    padding: 4px;
+    margin: 20px;
 }
 
 .contactcontent{
