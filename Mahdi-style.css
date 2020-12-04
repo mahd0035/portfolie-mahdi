@@ -242,9 +242,15 @@ article{
 .form{
     width: 40%;
 }
-.contactcontent{
-   padding: 55px;
+.contact h1{
+    padding-left: 150px;
 }
+
+.contact h2{
+    padding-left: 150px;
+   
+}
+
 .contactcontent{
     display: flex;
     flex-direction: row;
