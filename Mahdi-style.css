@@ -244,8 +244,14 @@ article{
 }
 
 .contactheading h1{
-    padding: 4px;
-    margin: 20px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.contactheading h2{
+    margin-left: 150px;
+    font-style: normal;
+    font-size: 15px;
 }
 
 .contactcontent{
