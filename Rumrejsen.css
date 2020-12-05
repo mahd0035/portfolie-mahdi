@@ -3,31 +3,38 @@ body{
     padding: 0;
 }
 
-.gridcontainer{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.3fr 1.2fr 0.8fr;
-    grid-template-areas:
-    "nav nav nav nav"
-    "main main main main"
-    "section section section section"
-    "footer footer footer footer"
+/*headeren */
+nav{
+    height: 10vh;
+    background-color: #F2EDE8;
+    width: 96vw;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+} 
+
+nav img{
+    width: 30%;
+    height: 50%;
 }
 
-nav{
-    background-color: tomato;
-    grid-area: nav;
+nav h1 a{
+    padding: 50px;
+    padding-bottom: 30px;
+    list-style: none;
+    list-style: none;
+    text-decoration: none;
 }
-main{
-    background-color: violet;
-    grid-area: main;
+.nav-links{
+    display: flex;
 }
-section{
-    background-color: blue;
-    grid-area: section;
-}
-footer{
-    background-color: turquoise;
-    grid-area: footer;
-}
+
+.nav-items{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+} 
