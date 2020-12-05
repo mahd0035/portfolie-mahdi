@@ -37,4 +37,12 @@ nav h1 a{
     padding: 0 20px;
     font-size: 18px;
     cursor: pointer;
+}  
+
+.figurpic{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    align-items: center;
 } 
+
