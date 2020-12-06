@@ -1,3 +1,6 @@
+html{
+scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -38,13 +41,28 @@ nav h1 a{
     display: flex;
 }
 
-.nav-items{
+.nav-links li{
     list-style: none;
     padding: 0 20px;
     font-size: 18px;
     cursor: pointer;
+    text-decoration: none;
 } 
 
+.nav-links a{
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+
+
+/*det her fixe a tag farver som blå og lilla*/
+a { color:#161B21 }
+
+a:visited { text-decoration: none; color:#161B21; }
+a:hover { text-decoration: none; color:#161B21; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
 /*første sektion*/ 
 
 section{
