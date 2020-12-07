@@ -275,6 +275,7 @@ article{
 
 .contact h2{
     padding-left: 150px;
+    font-weight: 350;
    
 }
 
@@ -419,6 +420,11 @@ footer img{
     .container{
         text-align: center;
     }
+
+    .container h5{
+        font-size: medium;
+        margin-right: 50px;
+    }
     .container .box{
         width: 30%;
         padding-bottom: 30%;
@@ -426,7 +432,7 @@ footer img{
         left: 15%;
     }
     .container .box .caption{
-        opacity: 1;
+        opacity: 0;
         transform: scale(1);
         bottom: 5%;
     }
