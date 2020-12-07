@@ -123,10 +123,15 @@ section{
 /*anden sektion med billedergalleri*/
 
 .portfolioscreen h1,h5{
-    padding-left: 150px;
+    margin-left: 60px;
+    font-size: 25px
+}
+
+.portfolioscreen h5{
+    font-weight: 400;
 }
 .container{
-    padding: 1% 1% 0% 1%;
+    padding: 1% 1% 1% 1%;
 }
 
 .container:after{
@@ -206,14 +211,6 @@ article{
     height: 135%;
 }
 
-.container h3{
-    display: flex;
-    flex-direction: column;
-    height: 85vh;
-    justify-content: center;
-    padding: 0;
-    margin: 10px;
-}
 
 /*tredje sektion omkring mig*/
 
@@ -449,11 +446,23 @@ footer img{
         font-size: 20px;
     } 
 
+    .container h1,h5{
+        padding: 10px 30px;
+    }
+
     /*sektion 4 kontakt*/
     .contact{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .contact h1{
+        padding: 10px 30px;
+
+    }
+    .contact h2{
+        padding: 20px 30px;
     }
     .contactheading{
         text-align: center;
