@@ -92,7 +92,7 @@ section{
 }
 
 .content h5{
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .homebtn{
@@ -108,7 +108,7 @@ section{
     text-decoration:none;
     color: #151A20;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 620;
 }
 
 .profileimage{
@@ -175,12 +175,12 @@ article{
 
 .box:hover:after{
     background-color: #000;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 .container .box .caption{
     position: absolute;
-    z-index: 60;
+    z-index: 9999;
     width: 96%;
     margin-left: 5%;
     transform: scale(3);
@@ -190,6 +190,9 @@ article{
     opacity: 0;
     bottom: 10%;
     text-align: start;
+}
+.caption h5{
+  padding: 10px 35px;
 }
 
 .box:hover .caption{
@@ -203,8 +206,9 @@ article{
     top: 50%;
     height: 100%;
     transform: translate(-50%, -50%);
-    z-index: 9999;
+    z-index: 9998;
     transition: all 0.15s ease-out
+    
 }
 
 .box:hover img{
