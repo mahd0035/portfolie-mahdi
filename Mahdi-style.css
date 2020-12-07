@@ -373,7 +373,7 @@ footer h3{
     color: #fff;
     font-size: 14px;
     font-weight: 350;
-
+    margin-left: 15px;
 }
 footer img{
    width:7%;
@@ -505,7 +505,8 @@ footer img{
     }
 
     footer h3{
-        font-size: 12pxc;
+        font-size: 12px;
+        margin-left: 10px;
     }
 
     footer img{
