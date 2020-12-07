@@ -86,20 +86,25 @@ nav h1 a{
 }
 
 /*footer*/
-.footermain{
+footer{
     width: 100%;
     background-color:#393535;
-    position: fixed;
-    bottom: 0;
 }
-.footermain img{
-    position: relative;
-    width: 40px;
-    border-radius: 100px;
-    height: 40px;
-    left: 50%; transform: translate(-50%);
-    margin-right: 20px;
+
+footer h3{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 350;
+    margin-left: 15px;
 }
+footer img{
+   width:7%;
+   height: 7%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 
 @media only screen and (max-width: 540px) {
 
@@ -127,13 +132,17 @@ nav h1 a{
         font-size: 14px;
     }
     
-    .footermain img{
-        margin-right: 10px;
-        padding-left: 0;
-        width: 30px;
-        height: 30px;
-        justify-content: center;      
+    footer h3{
+        font-size: 12px;
+        margin-left: 10px;
     }
-    
+
+    footer img{
+        width:20%;
+        height: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
