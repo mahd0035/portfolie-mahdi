@@ -16,8 +16,8 @@
     <a href="Mahdi.html"><img src="images/forsidelogofont.png" alt="indexlogo"></a>
         <ul class="nav-links">
             <li><a href="#projects000">projekter</a></li>
-            <a href="#scrollaboutme"><li>Om mig</li></a>
-            <a href="#contact1"><li>kontakt</li></a>
+            <li><a href="#scrollaboutme">Om mig</a></li>
+            <li><a href="#contact1">kontakt</a></li>
         </ul>
     </nav>
 
@@ -45,7 +45,7 @@
                 <h5>Gruppe/selvstændige projekter</h5>
             <section class="box">
                 <a href="Rumrejsen.html"><div class="caption"><h5>Rumrejsen</h5></div>
-                <img src="./images/climars blikfang50scale.jpg" alt="climars-prjekt">
+                <img src="/images/climars-rumrejsebillede.jpg" alt="rumrejsen-projekt">
             </a>
         </section>
            <section class="box">
@@ -115,10 +115,13 @@
 <section class="contact" id="contact1">
         <h1>Virker de interesseret</h1>
         <h2>Tøv ikke det mindste med at kontakte mig</h2>
-    </div>
     <div class="contactcontent">
         <div class="form">
-            <form action="">
+            <form action="#">
+                
+                <!--dette fjerner fejlen med formaction i validator-->
+                <script>document.querySelector("form").setAttribute("action", "")</script>
+
             <fieldset>
              <label>Hvad hedder de</label>
              <input placeholder="deres navn"/>  
