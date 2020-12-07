@@ -466,6 +466,7 @@ footer img{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .contact h1{
@@ -492,6 +493,7 @@ footer img{
     
     button{
         width: 100%;
+        height: 100%;
     }
     .contactimg{
         display: none;
