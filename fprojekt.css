@@ -58,6 +58,7 @@ a:hover, a:active { text-decoration: none; color:black }
 
 
 /*sektion 1 article billeder*/
+
 article .gallery{
     display: -webkit-flex;
     display: -moz-flex;
@@ -82,17 +83,59 @@ article img{
 
 
 /*footer*/
-.footermain{
+footer{
     width: 100%;
     background-color:#393535;
-    position: fixed;
-    bottom: 0;
+    padding-top: 175px;
 }
-.footermain img{
-    position: relative;
-    width: 40px;
-    border-radius: 100px;
-    height: 40px;
-    left: 50%; transform: translate(-50%);
-    margin-right: 20px;
+
+footer h3{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 350;
+    margin-left: 15px;
+}
+footer img{
+   width:7%;
+   height: 7%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+@media only screen and (max-width: 540px) {
+
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav{
+        width: 100%;
+        padding: 0;
+    }
+
+    header nav img{
+        width: 100%;
+        height: 100%;
+    }
+
+    footer{
+        padding-top: 0;
+    }
+    footer h3{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    footer img{
+        width:20%;
+        height: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
