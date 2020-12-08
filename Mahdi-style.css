@@ -402,6 +402,9 @@ footer img{
         width: 100%;
         height: 100%;
     }
+    .nav-links li{
+        font-size: 12px;
+    }
 
     /*sektion 1*/
     .eyecatch{
