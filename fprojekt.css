@@ -9,8 +9,12 @@ body{
 
 /*headeren */
 header{
-    height: 10vh;
     background-color: #F2EDE8;
+    height: 100px;
+
+}
+ header nav{
+    height: 12vh;
     width: 96vw;
     position: absolute;
     z-index: 100;
@@ -20,31 +24,41 @@ header{
     padding: 0 40px;
 } 
 
-header img{
+nav img{
     width: 30%;
     height: 50%;
 }
 
-header h1 a{
-    padding: 50px;
-    padding-bottom: 30px;
-    list-style: none;
-    list-style: none;
-    text-decoration: none;
-}
 .nav-links{
     display: flex;
 }
 
-.nav-items{
+.nav-links li{
     list-style: none;
     padding: 0 20px;
     font-size: 18px;
     cursor: pointer;
-}  
+    text-decoration: none;
+} 
+
+.nav-links a{
+    cursor: pointer;
+    text-decoration: none;
+} 
 
 
-article{
+
+/*det her fixe a tag farver som blå og lilla*/
+a { color:#161B21 }
+
+a:visited { text-decoration: none; color:#161B21; }
+a:hover { text-decoration: none; color:#161B21; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
+
+/*sektion 1 article billeder*/
+article .gallery{
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -54,7 +68,7 @@ article{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 article img{
