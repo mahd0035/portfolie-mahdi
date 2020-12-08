@@ -26,8 +26,8 @@ header{
 } 
 
 nav img{
-    width: 30%;
-    height: 50%;
+    width: 15%;
+    height: 20%;
 }
 
 .nav-links{
@@ -132,8 +132,9 @@ footer img{
     }
 
     header nav img{
-        width: 100%;
+        width: 90%;
         height: 100%;
+        margin-left: 5px;
     }
 
     .nav-links li{
