@@ -115,6 +115,12 @@ section{
     font-weight: 620;
 }
 
+
+.homebtn:hover{
+    background-color:#fca541;
+}
+
+
 .profileimage{
     width: 75%;
     height: 100vh;
@@ -216,7 +222,7 @@ article{
 }
 
 .box:hover img{
-    height: 135%;
+    height: 110%;
 }
 
 
@@ -259,7 +265,7 @@ article{
 }
 
 .aboutdesc p{
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
     text-align: justify;
 }
@@ -329,6 +335,10 @@ button{
     padding: 10px 30px;
     font-size: 14px;
     border-radius: 4px;
+}
+
+button:hover{
+    background: #fca541;;
 }
 
 .contactimg{
