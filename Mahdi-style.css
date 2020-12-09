@@ -57,12 +57,16 @@ nav h1 a{
 
 
 /*det her fixe a tag farver som blå og lilla*/
+
 a { color:#161B21 }
 
 a:visited { text-decoration: none; color:#161B21; }
-a:hover { text-decoration: none; color:#161B21; }
-a:focus { text-decoration: none; color:yellow; }
+a:hover { text-decoration: none; color:#F4A84F; }
+a:focus { text-decoration: none; color:#F4A84F; }
 a:hover, a:active { text-decoration: none; color:black }
+
+
+
 /*første sektion*/ 
 
 section{
