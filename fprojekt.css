@@ -57,29 +57,46 @@ a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:black }
 
 
-/*sektion 1 article billeder*/
+/* main sektion 1 article billeder*/
+main {
+    width: 100%;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
 
-section .gallery{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-}
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
 
-section img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-    padding: 0 20px 20px;
-}
-
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
 
 
 /*footer*/
