@@ -69,19 +69,19 @@ main {
   }
   
   .row {
-    margin: 8px -16px;
+    margin: 8px -10px;
   }
   
 
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 13px
   }
   
 
   .column {
     float: left;
-    width: 25%;
+    width: 31%;
   }
   
  
@@ -103,6 +103,7 @@ main {
 
   .content iframe{
       width: 100%;
+      height: 400px;
   }
   
 
@@ -135,6 +136,11 @@ footer img{
     .column {
       width: 50%;
     }
+
+    .row {
+        margin: 8px -16px;
+      }
+      
   }
 
 
@@ -161,6 +167,13 @@ footer img{
         font-size: 12px;
     }
 
+    main{
+        margin: 0;
+    }
+    .row {
+        margin: 5px -16px;
+      }
+      
     .column {
         width: 100%;
       }
