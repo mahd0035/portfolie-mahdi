@@ -1,5 +1,6 @@
 html{
 scroll-behavior: smooth;
+
 }
 body{
     margin: 0;
@@ -56,7 +57,7 @@ nav h1 a{
 
 
 
-/*det her fixe a tag farver som blå og lilla*/
+/*det her fixer a tag farver som blå og lilla*/
 
 a { color:#161B21 }
 
@@ -397,7 +398,7 @@ footer img{
    margin-right: auto;
 }
 
-/*Breakpoints begynder*/
+/*Mediquires begynder*/
 
 @media only screen and (max-width: 540px) {
 
